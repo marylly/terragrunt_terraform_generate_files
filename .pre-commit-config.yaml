@@ -1,0 +1,7 @@
+repos:
+- repo: local
+  hooks:
+    - id: tf-linter
+      name: Terraform Linter
+      entry: make tf-linter
+      language: script
